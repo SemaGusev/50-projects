@@ -20,7 +20,7 @@ prev.addEventListener('click', () => {
     currentActive--
 
 
-    if(currentActive > circles < 1) {
+    if(currentActive < 1) {
         currentActive = 1
     }
 
@@ -36,7 +36,7 @@ function update() {
     }
     })
 
-    const actives = dicument.querySelectorAll('.active')
+    const actives = document.querySelectorAll('.active')
 
     progress.style.width = (actives.length -1) / (circles.length -1) * 100 + '%'
 
