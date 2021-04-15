@@ -90,11 +90,11 @@ body {
   transform: scale(0.98);
 }
 
-btn:focus {
+.btn:focus {
   outline: 0;
 }
 
-btn:disabled {
+.btn:disabled {
   background-color: var(--line-border-empty);
   cursor: not-allowed;
 }
